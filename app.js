@@ -10,20 +10,16 @@ sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
 });
 
-  
-
-function login() { 
-
+function login() {
   var username = "admin";
   var password = "admin";
 
   var user = document.getElementById("username_field").value;
   var pass = document.getElementById("password_field").value;
 
-  if ("admin" === user || "admin" === pass) {
+  if ("admin" == user && "admin" == pass) {
     alert("Username e password corretti");
   } else {
-    window.location.href = "index.html";
+    window.location.assign("https://www.youtube.com/");
   }
 }
-
