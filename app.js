@@ -20,6 +20,19 @@ function login() {
   if ("admin" == user && "admin" == pass) {
     alert("Username e password corretti");
   } else {
-    window.location.assign("https://www.youtube.com/");
+
+    alert("Prova");
+    window.location.replace("http://www.w3schools.com");
+    if(window.location == "https://www.youtube.com") {
+
+      alert("Sei su youtube");
+
+    } else if(window.location == "http://127.0.0.1:8080/?"){
+
+      alert("Sei ancora nel login");
+    } else {
+
+      alert("Non so dove tu sia");
+    }
   }
 }

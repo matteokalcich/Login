@@ -231,6 +231,10 @@ form.sign-in-form {
   transform: translateX(800px);
 }
 
+#loginbtn:hover{
+
+  background-color: #8C9EFF;
+}
 /* ANIMATION */
 
 .container.sign-up-mode:before {

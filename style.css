@@ -20,5 +20,8 @@ html {
 }
 
 #redirect_btn:hover {
+
   background: linear-gradient(to left, #cb6a02, #ff6666, #df2900);
+
+  border-color: white;
 }
